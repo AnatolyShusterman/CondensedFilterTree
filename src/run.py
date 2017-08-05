@@ -1,11 +1,11 @@
-import pandas as pd
 import timeit
-from cft import CondensedFilterTreeClassifier
-from sklearn.metrics import hamming_loss
-from sklearn.metrics import f1_score
-from sklearn.metrics import label_ranking_loss
+
+import pandas as pd
 from sklearn import tree
-from sklearn import svm
+from sklearn.metrics import f1_score
+from sklearn.metrics import hamming_loss
+
+from src.cft import CondensedFilterTreeClassifier
 
 '''
 general variables used for CFT running
